@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.fixedBtns {
+    position: fixed;
+    left: calc(50% - 470px - 40px);
+    top: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: top 0.3s ease;
+    z-index: 100;
+    top: 56px;
+}
+.fixedBtns.fixed {
+    top: 8px;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--accent);
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.list a {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.list a:hover {
+    color: var(--accent);
+}
+
+.itemNumber {
+    color: var(--accent);
+}

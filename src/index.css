@@ -100,11 +100,23 @@
 html {
     background: var(--bg-primary);
     color: var(--text-primary);
-    border: var(--border-color);
+    border-color: var(--border-color);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+html::-webkit-scrollbar {
+    display: none;
 }
 
 body {
     font-family: var(--font-body);
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
 }
 
 h1,
@@ -115,9 +127,13 @@ h4 {
 }
 
 .wrapper {
+    position: relative;
     min-height: 100vh;
     max-width: 940px;
     margin: 0 auto;
-    padding: 16px;
     border-inline: 1px solid var(--border-color);
+}
+
+.padding {
+    padding: 72px 24px;
 }

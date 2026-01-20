@@ -1,0 +1,13 @@
+.divisionBox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    height: 48px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.contentFake {
+    height: 200vh;
+}
