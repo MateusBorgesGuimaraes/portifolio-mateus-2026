@@ -11,3 +11,9 @@
 .contentFake {
     height: 200vh;
 }
+
+.contentDisplay {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}

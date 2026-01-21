@@ -2,5 +2,7 @@
   "menu1": "about",
   "menu2": "projects",
   "menu3": "knowledge",
-  "menu4": "contact"
+  "menu4": "contact",
+  "subtitleHero": "WEB DEVELOPER",
+  "description": "I develop digital products with a strong focus on user experience, combining design and development to deliver clear, intuitive, and well-structured interfaces."
 }
