@@ -1,7 +1,7 @@
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: calc(100vh - 212px);
+    margin-top: 8px;
     align-items: center;
 }
 
@@ -56,11 +56,4 @@
 .btns {
     display: flex;
     gap: 20px;
-}
-
-.dec {
-    width: 40px;
-    height: 12px;
-    background: var(--accent);
-    display: block;
 }

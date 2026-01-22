@@ -2,6 +2,7 @@ import { FileDownIcon } from "lucide-react";
 import styles from "./styles.module.css";
 import { useTranslation } from "react-i18next";
 import ButtonLink from "../../components/buttonLink";
+import Dec from "../../components/dec";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -19,7 +20,7 @@ export default function Hero() {
       </div>
       <div className={`${styles.infosContainer}`}>
         <div className={`${styles.name}`}>
-          <span className={`${styles.dec}`}></span>
+          <Dec />
           <h2>Mateus Borges e Guimarães</h2>
         </div>
         <h3>{t("subtitleHero")}</h3>

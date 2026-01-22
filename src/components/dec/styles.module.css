@@ -1,0 +1,16 @@
+.dec {
+    width: 40px;
+    height: 12px;
+    background: var(--accent);
+    display: block;
+}
+
+.md {
+    min-width: 40px;
+    height: 12px;
+}
+
+.sm {
+    min-width: 20px;
+    height: 6px;
+}
