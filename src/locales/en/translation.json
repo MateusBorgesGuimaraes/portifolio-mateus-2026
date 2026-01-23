@@ -9,5 +9,12 @@
   "aboutP1": "Graduated in Information Systems, with a focus on web development and experience in both front-end development and design. I work on creating digital products, following all stages of development, from concept to implementation.",
   "aboutP2": "I have a stronger affinity for front-end development, but I am also interested in working as a full-stack developer, always seeking to grow technically and expand my knowledge across different technologies.",
   "aboutP3": "I have an intermediate level of English and knowledge of design, which allows me to contribute to the creative process as well as to the development of functional, intuitive, and well-structured interfaces.",
-  "aboutP4": "I am driven by curiosity and continuous learning, qualities that lead me to explore new solutions and take on challenges with responsibility and commitment."
+  "aboutP4": "I am driven by curiosity and continuous learning, qualities that lead me to explore new solutions and take on challenges with responsibility and commitment.",
+  "descOnTarget": "On Target is a project that simulates a modern e-commerce platform, focusing on responsive layout, user authentication, and a shopping cart.",
+  "descFactusBlog": "A modern and smooth news website focused on a simple reading experience, featuring user authentication and tools such as favorite posts and an editing area for authors.",
+  "descClimbUp": "A visual and minimalist climbing website created to practice Tailwind CSS, highlighting mountain landscapes and basic information about each route.",
+  "descForYou": "For You is a news website with a minimalist design and neutral colors, focused on a simple experience, featuring news saving, user interactions, and an administrative panel for content publishing.",
+  "descReadingManger": "Reading Manager is an application for organizing reading materials and tracking progress, allowing users to categorize content, register bookmarks, and view statistics in a simple and intuitive way.",
+  "descFeedbash": "Feedbash is a platform focused on sharing content via links, allowing users to receive feedback and ratings in a practical way, with authentication and interaction features.",
+  "descOcenaLibrary": "Ocean Library is a fictional library project created to provide a modern, intuitive, and functional experience for managing books, events, and news, meeting the needs of both users and platform administrators."
 }

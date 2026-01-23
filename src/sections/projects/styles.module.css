@@ -1,0 +1,22 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.projects > h1 {
+    grid-column: 1 / 12;
+    justify-self: end;
+}
+
+.projects > div:nth-of-type(odd) {
+    grid-column: 2 / 7;
+}
+
+.projects > div:nth-of-type(even) {
+    grid-column: 7 / 12;
+}
+
+.showButton {
+    grid-column: 1/-1;
+}

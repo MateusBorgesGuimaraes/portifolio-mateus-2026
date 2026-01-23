@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/header";
 import About from "./sections/about";
 import Hero from "./sections/hero";
+import { Projects } from "./sections/projects";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Hero />
         <About />
+        <Projects />
         {/*<div className="contentFake"></div>*/}
       </div>
     </div>
