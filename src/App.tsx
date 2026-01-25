@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/header";
 import About from "./sections/about";
 import Hero from "./sections/hero";
+import { Knowledge } from "./sections/knowledge";
 import { Projects } from "./sections/projects";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <About />
         <Projects />
+        <Knowledge />
         {/*<div className="contentFake"></div>*/}
       </div>
     </div>

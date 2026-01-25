@@ -9,14 +9,14 @@
     justify-self: end;
 }
 
-.projects > div:nth-of-type(odd) {
+.projects > div:not(.showButton):nth-of-type(odd) {
     grid-column: 2 / 7;
 }
 
-.projects > div:nth-of-type(even) {
+.projects > div:not(.showButton):nth-of-type(even) {
     grid-column: 7 / 12;
 }
 
 .showButton {
-    grid-column: 1/-1;
+    grid-column: 2 / 12;
 }

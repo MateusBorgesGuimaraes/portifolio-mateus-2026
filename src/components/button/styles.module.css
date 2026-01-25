@@ -1,0 +1,57 @@
+.defaultStyles {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.md {
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.sm {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.default {
+    background: var(--accent);
+    transition: 0.2s ease-in-out;
+}
+
+.default:hover {
+    background: var(--accent-hover);
+}
+
+.youtube {
+    background: #ff0000;
+    transition: 0.2s ease-in-out;
+}
+
+.youtube:hover {
+    opacity: 0.85;
+}
+
+.linkedin {
+    background: #0e76a8;
+    transition: 0.2s ease-in-out;
+}
+
+.linkedin:hover {
+    opacity: 0.85;
+}
+
+.github {
+    background: #24292e;
+    transition: 0.2s ease-in-out;
+}
+
+.github:hover {
+    opacity: 0.85;
+}

@@ -4,6 +4,8 @@ import ProjectCard from "../../components/projectCard";
 import { SectionTitle } from "../../components/sectionTitle";
 import styles from "./styles.module.css";
 import projectsInfos from "../../utils/projects-infos";
+import Button from "../../components/button";
+import { CircleEllipsisIcon } from "lucide-react";
 
 export function Projects() {
   const [showAll, setShowAll] = useState(false);
@@ -24,9 +26,10 @@ export function Projects() {
         />
       ))}
       <div className={styles.showButton}>
-        <button onClick={() => setShowAll(!showAll)}>
-          {showAll ? "Mostrar menos" : "Mostrar mais"}
-        </button>
+        <Button onClick={() => setShowAll(!showAll)}>
+          <CircleEllipsisIcon />{" "}
+          {showAll ? t("projectsBtn1") : t("projectsBtn2")}
+        </Button>
       </div>
     </section>
   );

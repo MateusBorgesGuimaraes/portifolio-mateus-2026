@@ -16,5 +16,8 @@
   "descForYou": "For You is a news website with a minimalist design and neutral colors, focused on a simple experience, featuring news saving, user interactions, and an administrative panel for content publishing.",
   "descReadingManger": "Reading Manager is an application for organizing reading materials and tracking progress, allowing users to categorize content, register bookmarks, and view statistics in a simple and intuitive way.",
   "descFeedbash": "Feedbash is a platform focused on sharing content via links, allowing users to receive feedback and ratings in a practical way, with authentication and interaction features.",
-  "descOcenaLibrary": "Ocean Library is a fictional library project created to provide a modern, intuitive, and functional experience for managing books, events, and news, meeting the needs of both users and platform administrators."
+  "descOcenaLibrary": "Ocean Library is a fictional library project created to provide a modern, intuitive, and functional experience for managing books, events, and news, meeting the needs of both users and platform administrators.",
+  "projectsBtn1": "Show less",
+  "projectsBtn2": "Show more",
+  "knowledge": "Knowledge"
 }
