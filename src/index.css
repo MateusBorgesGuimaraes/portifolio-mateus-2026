@@ -134,6 +134,12 @@ h4 {
     border-inline: 1px solid var(--border-color);
 }
 
+.wrapper2 {
+    position: relative;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
 .padding {
-    padding: 72px 24px;
+    padding: 24px;
 }

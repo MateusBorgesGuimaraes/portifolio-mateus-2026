@@ -19,5 +19,10 @@
   "descOcenaLibrary": "O Ocean Library é um projeto fictício de biblioteca criado para proporcionar uma experiência moderna, intuitiva e funcional no gerenciamento de livros, eventos e notícias, contemplando as necessidades de usuários e administradores da plataforma.",
   "projectsBtn1": "Mostrar menos",
   "projectsBtn2": "Mostrar mais",
-  "knowledge": "Conhecimentos"
+  "knowledge": "Conhecimentos",
+  "contactTitle": "CONTATO",
+  "contactEmailLabel": "Email",
+  "contactLinkedinLabel": "LinkedIn",
+  "contactEmailAria": "Enviar email para Mateus Guimarães",
+  "contactLinkedinAria": "Acessar perfil do LinkedIn"
 }

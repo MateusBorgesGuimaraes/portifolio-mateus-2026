@@ -19,5 +19,10 @@
   "descOcenaLibrary": "Ocean Library is a fictional library project created to provide a modern, intuitive, and functional experience for managing books, events, and news, meeting the needs of both users and platform administrators.",
   "projectsBtn1": "Show less",
   "projectsBtn2": "Show more",
-  "knowledge": "Knowledge"
+  "knowledge": "Knowledge",
+  "contactTitle": "CONTACT",
+  "contactEmailLabel": "Email",
+  "contactLinkedinLabel": "LinkedIn",
+  "contactEmailAria": "Send email to Mateus Guimarães",
+  "contactLinkedinAria": "Access LinkedIn profile"
 }

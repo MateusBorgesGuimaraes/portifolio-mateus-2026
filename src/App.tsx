@@ -1,6 +1,8 @@
 import "./App.css";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import About from "./sections/about";
+import Contact from "./sections/contact";
 import Hero from "./sections/hero";
 import { Knowledge } from "./sections/knowledge";
 import { Projects } from "./sections/projects";
@@ -15,7 +17,10 @@ function App() {
         <About />
         <Projects />
         <Knowledge />
-        {/*<div className="contentFake"></div>*/}
+        <Contact />
+      </div>
+      <div className="wrapper2 divisionBoxReverse">
+        <Footer />
       </div>
     </div>
   );

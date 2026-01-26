@@ -1,0 +1,32 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.contact > h1 {
+    margin-bottom: 24px;
+}
+
+.contact > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact li {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.contact li a {
+    color: var(--text-primary);
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+.contact li a:hover {
+    color: var(--accent);
+}

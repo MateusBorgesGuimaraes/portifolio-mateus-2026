@@ -1,5 +1,4 @@
 .divisionBox {
-    position: absolute;
     left: 0;
     right: 0;
     width: 100vw;
@@ -8,8 +7,14 @@
     border-bottom: 1px solid var(--border-color);
 }
 
-.contentFake {
-    height: 200vh;
+.divisionBoxReverse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    height: 48px;
+    border-top: 1px solid var(--border-color);
 }
 
 .contentDisplay {
