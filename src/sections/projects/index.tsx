@@ -14,7 +14,7 @@ export function Projects() {
 
   return (
     <section className={styles.projects}>
-      <SectionTitle>Projetos</SectionTitle>
+      <SectionTitle>{t("projects")}</SectionTitle>
       {displayedProjects.map((p) => (
         <ProjectCard
           key={p.title}

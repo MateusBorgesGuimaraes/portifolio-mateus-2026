@@ -22,3 +22,10 @@
     flex-direction: column;
     gap: 48px;
 }
+
+@media (width < 1040px) {
+    .divisionBoxReverse,
+    .divisionBox {
+        border: none;
+    }
+}

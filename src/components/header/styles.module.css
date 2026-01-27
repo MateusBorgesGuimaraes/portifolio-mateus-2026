@@ -16,6 +16,7 @@
     z-index: 100;
     top: 56px;
 }
+
 .fixedBtns.fixed {
     top: 8px;
 }
@@ -24,6 +25,28 @@
     font-weight: 600;
     font-size: 20px;
     color: var(--accent);
+}
+
+.menuToggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-primary);
+    padding: 8px;
+    z-index: 1001;
+}
+
+.menuToggle:hover {
+    color: var(--accent);
+}
+
+.overlay {
+    display: none;
+}
+
+.nav {
+    display: block;
 }
 
 .list {
@@ -44,4 +67,82 @@
 
 .itemNumber {
     color: var(--accent);
+}
+
+@media (width < 1040px) {
+    .fixedBtns {
+        left: auto;
+        right: 16px;
+        top: 16px;
+        flex-direction: row;
+    }
+
+    .fixedBtns.fixed {
+        top: 16px;
+    }
+}
+
+@media (width < 680px) {
+    .menuToggle {
+        display: block;
+    }
+
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .overlay {
+        display: block;
+        opacity: 1;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 70%;
+        max-width: 300px;
+        background: var(--bg-primary);
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        z-index: 1000;
+        box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav.navOpen {
+        transform: translateX(0);
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        padding: 80px 32px 32px;
+        height: 100%;
+    }
+
+    .list li {
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .list li:last-child {
+        border-bottom: none;
+    }
+
+    .list a {
+        display: block;
+        padding: 20px 0;
+        font-size: 18px;
+    }
 }

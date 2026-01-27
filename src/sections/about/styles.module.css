@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     align-items: center;
+    gap: 32px;
 }
 
 .titleSection {
@@ -29,7 +30,7 @@
 
 .list li {
     display: flex;
-    align-items: self-start;
+    align-items: flex-start;
     gap: 8px;
 }
 
@@ -39,4 +40,95 @@
 
 .list li p {
     line-height: 1.2;
+}
+
+@media (width < 1040px) {
+    .titleSection h1 {
+        font-size: 42px;
+    }
+
+    .list {
+        gap: 14px;
+    }
+
+    .list li p {
+        font-size: 15px;
+    }
+}
+
+@media (width < 880px) {
+    .about {
+        gap: 24px;
+    }
+
+    .titleSection {
+        grid-column: 1/5;
+    }
+
+    .titleSection h1 {
+        font-size: 36px;
+    }
+
+    .list {
+        grid-column: 5/-1;
+        gap: 12px;
+    }
+
+    .list li p {
+        font-size: 14px;
+    }
+}
+
+@media (width < 680px) {
+    .about {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .titleSection {
+        grid-column: 1;
+        justify-content: flex-start;
+    }
+
+    .titleSection h1 {
+        font-size: 32px;
+        writing-mode: horizontal-tb;
+        text-orientation: mixed;
+    }
+
+    .list {
+        grid-column: 1;
+        gap: 16px;
+    }
+
+    .list li {
+        gap: 8px;
+    }
+
+    .list li p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+}
+
+@media (width < 480px) {
+    .about {
+        gap: 20px;
+    }
+
+    .titleSection h1 {
+        font-size: 28px;
+    }
+
+    .list {
+        gap: 14px;
+    }
+
+    .list li p {
+        font-size: 14px;
+    }
+
+    .list li span {
+        margin-top: 6px;
+    }
 }

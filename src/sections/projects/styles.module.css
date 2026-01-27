@@ -20,3 +20,52 @@
 .showButton {
     grid-column: 2 / 12;
 }
+
+@media (width < 1040px) {
+    .projects {
+        gap: 16px;
+    }
+
+    .projects > div:not(.showButton):nth-of-type(odd) {
+        grid-column: 1 / 7;
+    }
+
+    .projects > div:not(.showButton):nth-of-type(even) {
+        grid-column: 7 / 13;
+    }
+
+    .showButton {
+        grid-column: 1 / 13;
+    }
+}
+
+@media (width < 880px) {
+    .projects > div:not(.showButton):nth-of-type(odd) {
+        grid-column: 1 / 7;
+    }
+
+    .projects > div:not(.showButton):nth-of-type(even) {
+        grid-column: 7 / 13;
+    }
+}
+
+@media (width < 680px) {
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .projects > h1 {
+        grid-column: 1;
+        justify-self: start;
+    }
+
+    .projects > div:not(.showButton):nth-of-type(odd),
+    .projects > div:not(.showButton):nth-of-type(even) {
+        grid-column: 1;
+    }
+
+    .showButton {
+        grid-column: 1;
+    }
+}

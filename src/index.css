@@ -128,7 +128,7 @@ h4 {
 
 .wrapper {
     position: relative;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     max-width: 940px;
     margin: 0 auto;
     border-inline: 1px solid var(--border-color);
@@ -142,4 +142,16 @@ h4 {
 
 .padding {
     padding: 24px;
+}
+
+@media (width < 1040px) {
+    .wrapper {
+        border: none;
+    }
+}
+
+@media (width < 680px) {
+    .padding {
+        padding: 12px;
+    }
 }

@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr;
     margin-top: 8px;
     align-items: center;
+    gap: 40px;
 }
 
 .imageContainer {
@@ -56,4 +57,127 @@
 .btns {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media (width < 1040px) {
+    .hero {
+        gap: 32px;
+    }
+
+    .imageContainer img {
+        width: 180px;
+        height: 335px;
+    }
+
+    .box1 {
+        width: 180px;
+        height: 368px;
+    }
+
+    .box1::before {
+        width: 180px;
+        height: 368px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .infosContainer h3 {
+        font-size: 16px;
+    }
+
+    .infosContainer p {
+        font-size: 14px;
+    }
+}
+
+@media (width < 880px) {
+    .hero {
+        gap: 24px;
+    }
+
+    .imageContainer img {
+        width: 140px;
+        height: 260px;
+    }
+
+    .box1 {
+        width: 140px;
+        height: 287px;
+    }
+
+    .box1::before {
+        width: 140px;
+        height: 287px;
+        top: -10px;
+        left: -10px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .infosContainer h3 {
+        font-size: 15px;
+    }
+
+    .infosContainer p {
+        font-size: 14px;
+    }
+
+    .btns {
+        gap: 12px;
+    }
+}
+
+@media (width < 680px) {
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin-top: 32px;
+    }
+
+    .imageContainer {
+        display: none;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .infosContainer h3 {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .infosContainer p {
+        font-size: 15px;
+        margin-bottom: 24px;
+    }
+
+    .btns {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
+@media (width < 480px) {
+    .hero {
+        margin-top: 24px;
+    }
+
+    .name {
+        font-size: 20px;
+        gap: 4px;
+    }
+
+    .infosContainer h3 {
+        font-size: 15px;
+    }
+
+    .infosContainer p {
+        font-size: 14px;
+    }
 }

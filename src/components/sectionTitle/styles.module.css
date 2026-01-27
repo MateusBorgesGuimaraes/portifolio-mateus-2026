@@ -4,3 +4,12 @@
     text-transform: uppercase;
     letter-spacing: 8px;
 }
+
+@media (width < 680px) {
+    .title {
+        font-size: 32px;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+}

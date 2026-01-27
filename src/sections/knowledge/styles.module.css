@@ -20,4 +20,74 @@
     color: var(--bg-secondary);
     background: var(--text-primary);
     padding: 6px 8px;
+    font-weight: 500;
+}
+
+@media (width < 1040px) {
+    .knowledge {
+        gap: 20px;
+    }
+
+    .knowledge > h1 {
+        grid-column: 1/13;
+    }
+
+    .tags {
+        grid-column: 1/13;
+        gap: 16px;
+    }
+
+    .tags li {
+        font-size: 15px;
+        padding: 6px 10px;
+    }
+}
+
+@media (width < 880px) {
+    .tags {
+        gap: 14px;
+    }
+
+    .tags li {
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+}
+
+@media (width < 680px) {
+    .knowledge {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .knowledge > h1 {
+        grid-column: 1;
+        text-align: left;
+    }
+
+    .tags {
+        grid-column: 1;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+
+    .tags li {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+@media (width < 480px) {
+    .knowledge {
+        gap: 16px;
+    }
+
+    .tags {
+        gap: 10px;
+    }
+
+    .tags li {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
 }

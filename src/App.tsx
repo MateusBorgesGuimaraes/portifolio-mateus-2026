@@ -14,9 +14,13 @@ function App() {
       <div className="padding contentDisplay">
         <Header />
         <Hero />
+
         <About />
+
         <Projects />
+
         <Knowledge />
+
         <Contact />
       </div>
       <div className="wrapper2 divisionBoxReverse">
