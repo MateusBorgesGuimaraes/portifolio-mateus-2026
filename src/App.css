@@ -10,7 +10,7 @@
 .divisionBoxReverse {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     height: 48px;

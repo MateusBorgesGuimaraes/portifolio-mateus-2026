@@ -23,7 +23,7 @@ function App() {
 
         <Contact />
       </div>
-      <div className="wrapper2 divisionBoxReverse">
+      <div className="divisionBoxReverse">
         <Footer />
       </div>
     </div>

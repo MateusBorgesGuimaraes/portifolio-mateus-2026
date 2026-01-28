@@ -1,4 +1,13 @@
 .footer {
-    margin-left: 8px;
-    margin-top: 8px;
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 24px;
+    box-sizing: border-box;
+}
+
+@media (width < 680px) {
+    .footer {
+        padding-left: 12px;
+    }
 }
