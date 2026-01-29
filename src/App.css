@@ -29,3 +29,11 @@
         border: none;
     }
 }
+
+@media (width < 680px) {
+    .contentDisplay {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+}

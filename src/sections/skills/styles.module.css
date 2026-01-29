@@ -17,8 +17,8 @@
 }
 
 .tags li {
-    color: var(--bg-secondary);
-    background: var(--text-primary);
+    color: var(--text-primary);
+    background: var(--border-color);
     padding: 6px 8px;
     font-weight: 500;
 }

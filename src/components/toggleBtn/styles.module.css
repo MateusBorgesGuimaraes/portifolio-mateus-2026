@@ -1,7 +1,7 @@
 .toggleBtn {
     border: none;
-    background: var(--text-primary);
-    color: var(--bg-secondary);
+    background: var(--border-color);
+    color: var(--text-primary);
     width: 32px;
     height: 32px;
     display: flex;

@@ -79,22 +79,22 @@ export default function Header() {
       <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ""}`}>
         <ul className={`${styles.list}`}>
           <li>
-            <a onClick={closeMenu}>
+            <a href="#about" onClick={closeMenu}>
               <span className={styles.itemNumber}>1 - </span> {t("menu1")}
             </a>
           </li>
           <li>
-            <a onClick={closeMenu}>
+            <a href="#projects" onClick={closeMenu}>
               <span className={styles.itemNumber}>2 - </span> {t("menu2")}
             </a>
           </li>
           <li>
-            <a onClick={closeMenu}>
+            <a href="#skills" onClick={closeMenu}>
               <span className={styles.itemNumber}>3 - </span> {t("menu3")}
             </a>
           </li>
           <li>
-            <a onClick={closeMenu}>
+            <a href="#contact" onClick={closeMenu}>
               <span className={styles.itemNumber}>4 - </span> {t("menu4")}
             </a>
           </li>

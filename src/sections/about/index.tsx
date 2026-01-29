@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 export default function About() {
   const { t } = useTranslation();
   return (
-    <section className={styles.about}>
+    <section id="about" className={styles.about}>
       <div className={styles.titleSection}>
         <h1>{t("aboutTitle")}</h1>
       </div>

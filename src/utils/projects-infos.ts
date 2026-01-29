@@ -37,7 +37,7 @@ const projectsInfos = [
   {
     title: "Reading Manager",
     imageUrl: "./readingManager-thumb.png",
-    content: "descReadingManger",
+    content: "descReadingManager",
     githubLink: "https://github.com/MateusBorgesGuimaraes/Reading-Manager",
     youtubeLink: "https://youtu.be/7TCeOmc_UUI",
   },

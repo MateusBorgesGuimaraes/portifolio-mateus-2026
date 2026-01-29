@@ -4,7 +4,7 @@ import Header from "./components/header";
 import About from "./sections/about";
 import Contact from "./sections/contact";
 import Hero from "./sections/hero";
-import { Knowledge } from "./sections/knowledge";
+import { Skills } from "./sections/skills";
 import { Projects } from "./sections/projects";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
 
         <Projects />
 
-        <Knowledge />
+        <Skills />
 
         <Contact />
       </div>

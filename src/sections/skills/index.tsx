@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { SectionTitle } from "../../components/sectionTitle";
 import styles from "./styles.module.css";
 
-export function Knowledge() {
+export function Skills() {
   const { t } = useTranslation();
   const techs = [
     "REACT",
@@ -23,8 +23,8 @@ export function Knowledge() {
     "...",
   ];
   return (
-    <section className={styles.knowledge}>
-      <SectionTitle>{t("knowledge")}</SectionTitle>
+    <section id="skills" className={styles.knowledge}>
+      <SectionTitle>{t("skills")}</SectionTitle>
       <ul className={styles.tags}>
         {techs.map((t) => (
           <li key={t}>{t}</li>

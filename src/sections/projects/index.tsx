@@ -13,7 +13,7 @@ export function Projects() {
   const displayedProjects = showAll ? projectsInfos : projectsInfos.slice(0, 4);
 
   return (
-    <section className={styles.projects}>
+    <section id="projects" className={styles.projects}>
       <SectionTitle>{t("projects")}</SectionTitle>
       {displayedProjects.map((p) => (
         <ProjectCard

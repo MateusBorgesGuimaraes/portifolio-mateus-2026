@@ -22,7 +22,7 @@ export default function Contact() {
   ];
 
   return (
-    <section className={styles.contact}>
+    <section id="contact" className={styles.contact}>
       <SectionTitle>{t("contactTitle")}</SectionTitle>
 
       <ul>
