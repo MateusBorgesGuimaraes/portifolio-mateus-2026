@@ -26,15 +26,28 @@ export default function Hero() {
         <h3>{t("subtitleHero")}</h3>
         <p>{t("description")}</p>
         <div className={`${styles.btns}`}>
-          <ButtonLink variant="github" sizes="md" href="#">
+          <ButtonLink
+            variant="github"
+            sizes="md"
+            href="https://github.com/MateusBorgesGuimaraes"
+          >
             <img src="/github.svg" />
             github
           </ButtonLink>
-          <ButtonLink variant="linkedin" sizes="md" href="#">
+          <ButtonLink
+            variant="linkedin"
+            sizes="md"
+            href="https://www.linkedin.com/in/mateus-borges-guimaraes/"
+          >
             <img src="/linkedin.svg" />
             linkedin
           </ButtonLink>
-          <ButtonLink variant="default" sizes="md" href="#">
+          <ButtonLink
+            variant="default"
+            sizes="md"
+            href="/Mateus-Borges-Desenvolvedor-Front-End-Curriculo.pdf"
+            download
+          >
             <FileDownIcon color="#fff" />
             CV
           </ButtonLink>

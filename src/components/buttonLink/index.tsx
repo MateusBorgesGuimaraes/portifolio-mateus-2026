@@ -11,6 +11,7 @@ type ButtonLinkProps = {
   children: React.ReactNode;
   target?: "_blank" | "_self";
   rel?: string;
+  download?: boolean;
 };
 
 export default function ButtonLink({
@@ -20,9 +21,11 @@ export default function ButtonLink({
   target = "_self",
   rel,
   children,
+  download = false,
 }: ButtonLinkProps) {
   return (
     <a
+      download={download}
       href={href}
       target={target}
       rel={target === "_blank" ? "noopener noreferrer" : rel}

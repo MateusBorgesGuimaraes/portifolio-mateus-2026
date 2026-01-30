@@ -16,7 +16,7 @@ export default function Contact() {
     {
       label: t("contactLinkedinLabel"),
       value: "linkedin",
-      href: "https://www.linkedin.com/in/mateus-borges-11ab522b8",
+      href: "https://www.linkedin.com/in/mateus-borges-guimaraes/",
       aria: t("contactLinkedinAria"),
     },
   ];
