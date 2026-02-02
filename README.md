@@ -1,73 +1,78 @@
-# React + TypeScript + Vite
+# 🚀 Mateus Borges — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e experiências como Desenvolvedor Web.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👨‍💻 Sobre mim
 
-## React Compiler
+Sou Desenvolvedor Web com foco em **Front-End**, formado em Sistemas de Informação.  
+Desenvolvo interfaces modernas, responsivas e bem estruturadas, sempre priorizando a experiência do usuário e boas práticas de desenvolvimento.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Busco evoluir constantemente minhas habilidades técnicas e ampliar meus conhecimentos para atuar também como Desenvolvedor Full Stack.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🌎 Acesse o projeto
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🔗 **Deploy:** https://portifolio-mateus-borges.vercel.app/  
+📂 **Repositório:** https://github.com/MateusBorgesGuimaraes/portifolio-mateus-2026  
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Tecnologias utilizadas
+
+- React  
+- TypeScript  
+- Vite  
+- CSS Modules  
+- Tailwind CSS  
+- i18next (Internacionalização)  
+- Lucide React  
+
+---
+
+## 🌐 Funcionalidades
+
+- 🌎 Suporte a múltiplos idiomas (Português / Inglês)  
+- 📱 Layout totalmente responsivo  
+- 🎨 Interface moderna e minimalista  
+- 📂 Seção de projetos com descrição detalhada  
+- 📩 Seção de contato com acesso rápido  
+
+---
+
+## 🌍 Internacionalização
+
+O projeto utiliza **i18next** para suporte a múltiplos idiomas.
+
+As traduções estão organizadas em:
+
+```
+src/locales/pt.json
+src/locales/en.json
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📸 Projetos em destaque
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 🛒 **On Target** — E-commerce moderno com autenticação e carrinho  
+- 📰 **Factus Blog** — Plataforma de notícias com sistema de usuários  
+- 🧗 **Climb Up** — Site visual focado em Tailwind CSS  
+- 📚 **Reading Manager** — Gerenciador de leituras  
+- 🔗 **Feedbash** — Plataforma de compartilhamento com feedback  
+- 🌊 **Ocean Library** — Sistema fictício de biblioteca  
+
+---
+
+## 📬 Contato
+
+📧 mateusguimaraes717@gmail.com  
+🔗 https://www.linkedin.com/in/mateus-borges-guimaraes  
+
+---
+
+## 📄 Licença
+
+Este projeto tem fins demonstrativos e foi desenvolvido para compor meu portfólio profissional.
