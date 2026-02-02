@@ -11,11 +11,7 @@ export default function Hero() {
     <section className={`${styles.hero}`}>
       <div className={`${styles.imageContainer}`}>
         <div className={`${styles.box1}`}>
-          <img
-            src="/mateus.png"
-            alt="Foto de Mateus Borges e Guimarães"
-            loading="lazy"
-          />
+          <img src="/mateus.png" alt={t("altPhoto")} loading="lazy" />
         </div>
       </div>
       <div className={`${styles.infosContainer}`}>

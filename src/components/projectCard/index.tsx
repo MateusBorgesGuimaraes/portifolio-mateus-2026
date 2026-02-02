@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 
 type ProjectCardProps = {
   imageUrl: string;
+  alt: string;
   title: string;
   content: string;
   githubLink: string;
@@ -11,6 +12,7 @@ type ProjectCardProps = {
 
 export default function ProjectCard({
   imageUrl,
+  alt,
   title,
   content,
   githubLink,
@@ -19,7 +21,7 @@ export default function ProjectCard({
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
-        <img src={imageUrl} />
+        <img alt={alt} src={imageUrl} />
       </div>
       <h4>{title}</h4>
       <p>{content}</p>

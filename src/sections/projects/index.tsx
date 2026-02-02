@@ -20,6 +20,7 @@ export function Projects() {
           key={p.title}
           title={p.title}
           imageUrl={p.imageUrl}
+          alt={p.alt}
           content={t(p.content)}
           githubLink={p.githubLink}
           youtubeLink={p.youtubeLink}
