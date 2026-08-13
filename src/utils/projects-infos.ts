@@ -1,5 +1,37 @@
 const projectsInfos = [
   {
+    title: "Paw.io",
+    imageUrl: "./paw-io-thumb.jpg",
+    content: "descPawio",
+    alt: "altPawio",
+    githubLink: "https://github.com/MateusBorgesGuimaraes/paw.io",
+    youtubeLink: "https://youtu.be/Qc2rjcH-VBM",
+  },
+  {
+    title: "Greep",
+    imageUrl: "./greep-thumb.jpg",
+    content: "descGreep",
+    alt: "altGreep",
+    githubLink: "https://github.com/MateusBorgesGuimaraes/grep",
+    youtubeLink: "https://youtu.be/TwW0A-vbn7o",
+  },
+  {
+    title: "Form Academy",
+    imageUrl: "./form-academy-thumb.jpg",
+    content: "descFormAcademy",
+    alt: "altFormAcademy",
+    githubLink: "https://github.com/MateusBorgesGuimaraes/form-academia",
+    youtubeLink: "https://youtu.be/ATZTnefc6O4",
+  },
+  {
+    title: "Mendes e associados",
+    imageUrl: "./mendes-associados-thumb.jpg",
+    content: "descMendesAssociados",
+    alt: "altMendesAssociados",
+    githubLink: "https://github.com/MateusBorgesGuimaraes/mendes-associados",
+    youtubeLink: "https://youtu.be/0jX0u5YvX94",
+  },
+  {
     title: "ON Target",
     imageUrl: "./onTarget-thumb.jpg",
     content: "descOnTarget",
