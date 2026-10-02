@@ -1,5 +1,13 @@
 const projectsInfos = [
   {
+    title: "Dev notes",
+    imageUrl: "./blog-thumb.jpg",
+    content: "descDevnotes",
+    alt: "altDevnotes",
+    githubLink: "https://github.com/MateusBorgesGuimaraes/dev-notes",
+    youtubeLink: "https://youtu.be/0MN4IFjP66o",
+  },
+  {
     title: "Paw.io",
     imageUrl: "./paw-io-thumb.jpg",
     content: "descPawio",

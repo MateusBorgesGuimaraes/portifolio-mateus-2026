@@ -12,6 +12,8 @@
   "aboutP3": "Possuo inglês intermediário e conhecimentos em design, o que me permite contribuir também no processo criativo e na construção de interfaces funcionais, intuitivas e bem estruturadas.",
   "aboutP4": "Sou movido pela curiosidade e pelo aprendizado contínuo, características que me levam a explorar novas soluções e a enfrentar desafios com responsabilidade e comprometimento.",
   "projects": "Projetos",
+  "descDevnotes": "Dev Notes é uma aplicação de blog que permite criar, editar e excluir posts, gerenciar usuários e publicar comentários. Possui uma interface minimalista, intuitiva e fácil de usar.",
+  "altDevnotes": "Post individual da aplicação Dev notes.",
   "descPawio": "Paw.io é uma aplicação para gestão de clínicas veterinárias, com foco na organização de consultas, pacientes, tutores e informações clínicas em uma interface completa para desktop.",
   "altPawio": "Dashboard da aplicação Paw.io",
   "descGreep": "Greep é um leitor de feeds RSS com uma interface minimalista, permitindo organizar fontes, pesquisar artigos, salvar conteúdos e acompanhar leituras de forma simples.",
